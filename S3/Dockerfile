@@ -1,6 +1,8 @@
 FROM python:3.9-slim
 
-# Install system dependencies
+
+
+# Installing system dependencies and the necessary commnads 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     make \
     && rm -rf /var/lib/apt/lists/*
