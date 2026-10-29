@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 
 def load_environment_variables() -> Dict[str, Any]:
     """Load and validate required environment variables."""
+    # Load environment variables from the .env file
     load_dotenv()
 
     required_vars = [
